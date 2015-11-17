@@ -24,4 +24,21 @@
         android:id="@+id/in_game_answer"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:id="@+id/in_game_enter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="on_in_game_enter"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/in_game_answer_box"
+        android:layout_above="@+id/in_game_enter"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter a Letter" />
 </RelativeLayout>
